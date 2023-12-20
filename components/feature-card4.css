@@ -1,0 +1,55 @@
+.feature-card4-feature-card {
+  width: 470px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  flex-wrap: wrap;
+  max-width: 1400px;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.feature-card4-icon {
+  fill: #f1edb4;
+  width: 2rem;
+  height: 3rem;
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.feature-card4-text {
+  color: var(--dl-color-sant-peterspurg-saint-main-color);
+  width: 80%;
+  height: 3rem;
+  font-size: 1.8rem;
+  font-family: "Amatic SC";
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.feature-card4-text1 {
+  color: var(--dl-color-sant-peterspurg-saint-gray);
+}
+.feature-card4-root-class-name {
+  width: 100%;
+}
+.feature-card4-root-class-name1 {
+  width: 90%;
+}
+.feature-card4-root-class-name2 {
+  width: 90%;
+}
+.feature-card4-root-class-name3 {
+  width: 90%;
+}
+.feature-card4-root-class-name4 {
+  width: 90%;
+}
+@media(max-width: 767px) {
+  .feature-card4-text {
+    width: auto;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card4-text {
+    font-style: normal;
+    font-weight: 600;
+  }
+}
