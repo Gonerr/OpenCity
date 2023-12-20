@@ -1,0 +1,774 @@
+.navigation-links1-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links1-text1 {
+  margin-left: 32px;
+}
+.navigation-links1-text2 {
+  margin-left: 32px;
+}
+.navigation-links1-text3 {
+  margin-left: 32px;
+}
+.navigation-links1-text4 {
+  margin-left: 32px;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links1-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links1-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links1-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links1-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links1-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links1-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.feature-card4-feature-card {
+  width: 470px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  flex-wrap: wrap;
+  max-width: 1400px;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.feature-card4-icon {
+  fill: #f1edb4;
+  width: 2rem;
+  height: 3rem;
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.feature-card4-text {
+  color: var(--dl-color-sant-peterspurg-saint-main-color);
+  width: 80%;
+  height: 3rem;
+  font-size: 1.8rem;
+  font-family: "Amatic SC";
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.feature-card4-text1 {
+  color: var(--dl-color-sant-peterspurg-saint-gray);
+}
+.feature-card4-root-class-name {
+  width: 100%;
+}
+.feature-card4-root-class-name1 {
+  width: 90%;
+}
+.feature-card4-root-class-name2 {
+  width: 90%;
+}
+.feature-card4-root-class-name3 {
+  width: 90%;
+}
+.feature-card4-root-class-name4 {
+  width: 90%;
+}
+@media(max-width: 767px) {
+  .feature-card4-text {
+    width: auto;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card4-text {
+    font-style: normal;
+    font-weight: 600;
+  }
+}
+
+.saint-petersburg-container {
+  color: var(--dl-color-sant-peterspurg-saint-dark);
+  width: 100%;
+  display: overflow;
+  overflow: hidden;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-sant-peterspurg-saint-main-color);
+}
+.saint-petersburg-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: space-between;
+  background-color: #e1e8ef;
+}
+.saint-petersburg-navlink {
+  display: contents;
+}
+.saint-petersburg-logo {
+  width: 113px;
+  height: 3rem;
+  object-fit: cover;
+  text-decoration: none;
+}
+.saint-petersburg-navlink01 {
+  font-style: normal;
+  font-weight: 400;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-petersburg-navlink02 {
+  font-style: normal;
+  font-weight: 400;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-petersburg-navlink03 {
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-petersburg-navlink04 {
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-petersburg-navlink05 {
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.saint-petersburg-all-links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.saint-petersburg-tg {
+  fill: var(--dl-color-primary-bluelight);
+  width: 20px;
+  height: 20px;
+  margin-right: 32px;
+}
+.saint-petersburg-vk {
+  fill: var(--dl-color-primary-dark_blue);
+  width: 20px;
+  height: 20px;
+  margin-right: 32px;
+}
+.saint-petersburg-inst {
+  fill: #c62f89;
+  width: 20px;
+  height: 20px;
+}
+.saint-petersburg-burger-menu {
+  display: none;
+}
+.saint-petersburg-icon03 {
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+.saint-petersburg-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.saint-petersburg-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.saint-petersburg-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+  justify-content: space-between;
+}
+.saint-petersburg-image {
+  height: 2rem;
+}
+.saint-petersburg-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.saint-petersburg-icon05 {
+  width: 16px;
+  height: 16px;
+}
+.saint-petersburg-icon07 {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.saint-petersburg-icon09 {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.saint-petersburg-icon11 {
+  width: 16px;
+  height: 16px;
+}
+.saint-petersburg-hero {
+  width: 100%;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  padding-top: 48px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://images.unsplash.com/photo-1633211437333-f2c0b516078e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI1fHxzYWludC1wZXRlcnNidXJnfGVufDB8fHx8MTcwMzA4MDQyNnww&ixlib=rb-4.0.3&q=80&w=1500');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.saint-petersburg-text {
+  color: var(--dl-color-sant-peterspurg-saint-dark);
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+}
+.saint-petersburg-text01 {
+  color: var(--dl-color-sant-peterspurg-saint-dark);
+  font-size: 3rem;
+  max-width: 900px;
+  font-style: normal;
+  margin-top: 32px;
+  text-align: center;
+  font-family: "Amatic SC";
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0px;
+}
+.saint-petersburg-container2 {
+  width: 90%;
+  margin: 48px;
+  display: flex;
+  z-index: 10;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(251, 251, 251, 0) 50.00%,rgba(45, 32, 26, 0.79) 100.00%);
+}
+.saint-petersburg-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-fiveunits);
+  justify-content: space-between;
+}
+.saint-petersburg-gallery-card {
+  width: 30%;
+  display: flex;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.62);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e2d7c0;
+}
+.saint-petersburg-image1 {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.saint-petersburg-text02 {
+  font-size: 1.7rem;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  font-family: "Amatic SC";
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+  letter-spacing: 2px;
+}
+.saint-petersburg-text03 {
+  color: var(--dl-color-gray-500);
+  align-self: flex-start;
+}
+.saint-petersburg-gallery-card1 {
+  width: 30%;
+  display: flex;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.62);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e2d7c0;
+}
+.saint-petersburg-image2 {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.saint-petersburg-text04 {
+  font-size: 1.7rem;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  font-family: "Amatic SC";
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+  letter-spacing: 2px;
+}
+.saint-petersburg-text05 {
+  color: var(--dl-color-gray-500);
+  align-self: flex-start;
+}
+.saint-petersburg-gallery-card2 {
+  width: 30%;
+  display: flex;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.62);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e2d7c0;
+}
+.saint-petersburg-image3 {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.saint-petersburg-text06 {
+  font-size: 1.7rem;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  font-family: "Amatic SC";
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+  letter-spacing: 2px;
+}
+.saint-petersburg-text07 {
+  color: var(--dl-color-gray-500);
+  align-self: flex-start;
+}
+.saint-petersburg-banner {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.saint-petersburg-text08 {
+  color: var(--dl-color-gray-white);
+  font-size: 3rem;
+  margin-top: 0px;
+  text-align: center;
+  font-family: "Amatic SC";
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+.saint-petersburg-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.saint-petersburg-navlink06 {
+  color: var(--dl-color-sant-peterspurg-saint-gray);
+  width: 300px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.saint-petersburg-navlink06:hover {
+  transform: scale(1.02);
+}
+.saint-petersburg-button {
+  color: var(--dl-color-sant-peterspurg-saint-dark);
+  width: 300px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-sant-peterspurg-saint-gray);
+}
+.saint-petersburg-button:hover {
+  transform: scale(1.02);
+}
+.saint-petersburg-pasted-image {
+  width: 100%;
+  height: 641px;
+  display: none;
+  background-repeat: no-repeat;
+}
+.saint-petersburg-pasted-image1 {
+  top: 970px;
+  left: -4px;
+  width: 100%;
+  height: 341px;
+  z-index: 0;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.saint-petersburg-features {
+  width: 100%;
+  display: flex;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tenunits);
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1588930842229-9cb64db19017?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDYyfHxzYWludC1wZXRlcnNidXJnfGVufDB8fHx8MTcwMzA4MDQ5N3ww&ixlib=rb-4.0.3&w=1500');
+  background-position: center;
+}
+.saint-petersburg-text09 {
+  color: var(--dl-color-sant-peterspurg-saint-gray);
+  font-size: 3rem;
+  font-family: "Amatic SC";
+}
+.saint-petersburg-separator {
+  width: 100px;
+  height: 2px;
+  background-color: var(--dl-color-gray-500);
+}
+.saint-petersburg-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: 32px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.saint-petersburg-container5 {
+  width: 100%;
+  display: grid;
+  align-self: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tenunits);
+  padding-right: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-tripleunit);
+  background-color: rgba(27, 25, 25, 0.67);
+  grid-template-columns: 1fr 1fr;
+}
+.saint-petersburg-footer {
+  color: var(--dl-color-sant-peterspurg-saint-gray);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: space-between;
+  background-color: var(--dl-color-sant-peterspurg-saint-dark);
+}
+.saint-petersburg-foot-menu {
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.saint-petersburg-logo1 {
+  height: 100px;
+  margin-bottom: 32px;
+}
+.saint-petersburg-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: row;
+}
+.saint-petersburg-navlink07 {
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-petersburg-navlink08 {
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-petersburg-navlink09 {
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-petersburg-navlink10 {
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-petersburg-navlink11 {
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.saint-petersburg-separator1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: 32px;
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-sant-peterspurg-saint-light);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: 32px;
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.saint-petersburg-flex-row-space-between {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.saint-petersburg-all-links1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.saint-petersburg-tg1 {
+  fill: var(--dl-color-primary-bluelight);
+  width: 25px;
+  height: 25px;
+  margin-right: 32px;
+}
+.saint-petersburg-vk1 {
+  fill: var(--dl-color-primary-dark_blue);
+  width: 25px;
+  height: 25px;
+  margin-right: 32px;
+}
+.saint-petersburg-inst1 {
+  fill: #c62f89;
+  width: 25px;
+  height: 25px;
+  margin-right: 32px;
+}
+@media(max-width: 991px) {
+  .saint-petersburg-icon03 {
+    display: flex;
+  }
+  .saint-petersburg-features {
+    align-items: center;
+  }
+  .saint-petersburg-container4 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .saint-petersburg-header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-petersburg-nav {
+    display: none;
+  }
+  .saint-petersburg-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .saint-petersburg-hero {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-petersburg-container3 {
+    flex-direction: column;
+  }
+  .saint-petersburg-gallery-card {
+    width: 80%;
+    margin-bottom: var(--dl-space-space-fiveunits);
+    flex-direction: column;
+  }
+  .saint-petersburg-gallery-card1 {
+    width: 80%;
+    margin-bottom: var(--dl-space-space-fiveunits);
+    flex-direction: column;
+  }
+  .saint-petersburg-gallery-card2 {
+    width: 80%;
+    flex-direction: column;
+  }
+  .saint-petersburg-banner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-petersburg-pasted-image1 {
+    top: 1142px;
+    left: -113px;
+    width: 1000px;
+    height: 329px;
+    display: none;
+  }
+  .saint-petersburg-features {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-petersburg-text09 {
+    text-align: center;
+  }
+  .saint-petersburg-container4 {
+    flex-direction: column;
+  }
+  .saint-petersburg-container5 {
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .saint-petersburg-footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-petersburg-logo1 {
+    margin-bottom: 24px;
+  }
+  .saint-petersburg-separator1 {
+    margin-top: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 24px;
+  }
+  .saint-petersburg-flex-row-space-between {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .saint-petersburg-text10 {
+    margin-bottom: 24px;
+  }
+}
+@media(max-width: 479px) {
+  .saint-petersburg-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .saint-petersburg-mobile-menu {
+    padding: 16px;
+  }
+  .saint-petersburg-hero {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .saint-petersburg-gallery-card {
+    height: 200px;
+  }
+  .saint-petersburg-image1 {
+    height: 10rem;
+  }
+  .saint-petersburg-gallery-card1 {
+    height: 200px;
+  }
+  .saint-petersburg-image2 {
+    height: 10rem;
+  }
+  .saint-petersburg-gallery-card2 {
+    height: 200px;
+  }
+  .saint-petersburg-image3 {
+    height: 10rem;
+  }
+  .saint-petersburg-banner {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .saint-petersburg-btn-group {
+    flex-direction: column;
+  }
+  .saint-petersburg-button {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .saint-petersburg-features {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .saint-petersburg-container5 {
+    grid-template-columns: 1fr;
+  }
+  .saint-petersburg-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .saint-petersburg-nav2 {
+    flex-wrap: wrap;
+  }
+  .saint-petersburg-separator1 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .saint-petersburg-flex-row-space-between {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .saint-petersburg-text10 {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+}

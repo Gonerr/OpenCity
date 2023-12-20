@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Открой город</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Raleway;
+        font-size: 18px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      html {
+      scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./saint-petersburg.css" rel="stylesheet" />
+
+      <div class="saint-petersburg-container">
+        <header data-role="Header" class="saint-petersburg-header">
+          <a href="index.html" class="saint-petersburg-navlink">
+            <img
+              alt="logo"
+              src="public/%D0%BB%D0%BE%D0%B3%D0%BE2-1400w.png"
+              class="saint-petersburg-logo"
+            />
+          </a>
+          <nav class="saint-petersburg-nav">
+            <a href="index.html" class="saint-petersburg-navlink01">
+              Главная
+            </a>
+            <a
+              href="saint-about-project.html"
+              class="saint-petersburg-navlink02"
+            >
+              О проекте
+            </a>
+            <a href="saint-routes.html" class="saint-petersburg-navlink03">
+              Маршруты
+            </a>
+            <a href="saint-galary.html" class="saint-petersburg-navlink04">
+              Галерея
+            </a>
+            <a href="saint-about-us.html" class="saint-petersburg-navlink05">
+              Контакты
+            </a>
+          </nav>
+          <div class="saint-petersburg-all-links">
+            <svg viewBox="0 0 1024 1024" class="saint-petersburg-tg">
+              <path
+                d="M512 0c-282.8 0-512 229.2-512 512s229.2 512 512 512 512-229.2 512-512-229.2-512-512-512zM763.6 351l-84 395.8c-5.8 28.2-22.8 34.8-46.4 21.8l-128-94.6-61.4 59.8c-7.2 7-12.8 12.8-25.6 12.8-16.6 0-13.8-6.2-19.4-22l-43.6-143.2-126.6-39.4c-27.4-8.4-27.6-27.2 6.2-40.6l493.2-190.4c22.4-10.2 44.2 5.4 35.6 40z"
+              ></path></svg ><svg viewBox="0 0 1024 1024" class="saint-petersburg-vk">
+              <path
+                d="M928 0h-832c-52.8 0-96 43.2-96 96v832c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-832c0-52.8-43.2-96-96-96zM829.4 716.8l-93.6 1.4c0 0-20.2 4-46.6-14.2-35-24-68-86.6-93.8-78.4-26 8.2-25.2 64.4-25.2 64.4s0.2 12-5.8 18.4c-6.4 7-19.2 8.4-19.2 8.4h-41.8c0 0-92.4 5.6-173.8-79.2-88.8-92.4-167.2-275.8-167.2-275.8s-4.6-12 0.4-17.8c5.6-6.6 20.6-7 20.6-7l100.2-0.6c0 0 9.4 1.6 16.2 6.6 5.6 4 8.6 11.8 8.6 11.8s16.2 41 37.6 78c41.8 72.2 61.4 88 75.6 80.4 20.6-11.2 14.4-102.2 14.4-102.2s0.4-33-10.4-47.6c-8.4-11.4-24.2-14.8-31-15.6-5.6-0.8 3.6-13.8 15.6-19.8 18-8.8 49.8-9.4 87.4-9 29.2 0.2 37.8 2.2 49.2 4.8 34.6 8.4 22.8 40.6 22.8 117.8 0 24.8-4.4 59.6 13.4 71 7.6 5 26.4 0.8 73.4-79 22.2-37.8 39-82.2 39-82.2s3.6-8 9.2-11.4c5.8-3.4 13.6-2.4 13.6-2.4l105.4-0.6c0 0 31.6-3.8 36.8 10.6 5.4 15-11.8 50-54.8 107.4-70.6 94.2-78.6 85.4-19.8 139.8 56 52 67.6 77.4 69.6 80.6 22.8 38.4-26 41.4-26 41.4z"
+              ></path></svg><svg
+              viewBox="0 0 877.7142857142857 1024"
+              class="saint-petersburg-inst"
+            >
+              <path
+                d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+              ></path>
+            </svg>
+          </div>
+          <div data-role="BurgerMenu" class="saint-petersburg-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="saint-petersburg-icon03">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-role="MobileMenu" class="saint-petersburg-mobile-menu">
+            <div class="saint-petersburg-nav1">
+              <div class="saint-petersburg-container1">
+                <img
+                  alt="image"
+                  src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+                  class="saint-petersburg-image"
+                />
+                <div
+                  data-role="CloseMobileMenu"
+                  class="saint-petersburg-close-mobile-menu"
+                >
+                  <svg viewBox="0 0 1024 1024" class="saint-petersburg-icon05">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                class="navigation-links1-nav navigation-links1-root-class-name16"
+              >
+                <span class="navigation-links1-text"><span>About</span></span>
+                <span class="navigation-links1-text1">
+                  <span>Features</span>
+                </span>
+                <span class="navigation-links1-text2">
+                  <span>Pricing</span>
+                </span>
+                <span class="navigation-links1-text3"><span>Team</span></span>
+                <span class="navigation-links1-text4"><span>Blog</span></span>
+              </nav>
+            </div>
+            <div>
+              <svg
+                viewBox="0 0 950.8571428571428 1024"
+                class="saint-petersburg-icon07"
+              >
+                <path
+                  d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                ></path></svg ><svg
+                viewBox="0 0 877.7142857142857 1024"
+                class="saint-petersburg-icon09"
+              >
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                ></path></svg ><svg
+                viewBox="0 0 602.2582857142856 1024"
+                class="saint-petersburg-icon11"
+              >
+                <path
+                  d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </header>
+        <div class="saint-petersburg-hero">
+          <span class="saint-petersburg-text">
+            сайт-гид по санкт-петербургу
+          </span>
+          <h1 class="saint-petersburg-text01">
+            Начни своё путешествие по самым разным местам Петербурга вместе с
+            нами
+          </h1>
+          <div class="saint-petersburg-container2">
+            <div class="saint-petersburg-container3">
+              <div class="saint-petersburg-gallery-card">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1551005756-fd0657e8fbf2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fHNhaW50LXBldGVyc2J1cmd8ZW58MHx8fHwxNzAzMDgwMzYyfDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=1500"
+                  class="saint-petersburg-image1"
+                />
+                <h2 class="saint-petersburg-text02">Знаменитые соборы</h2>
+                <span class="saint-petersburg-text03">
+                  Далее будет ссылка на д.о.
+                </span>
+              </div>
+              <div class="saint-petersburg-gallery-card1">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1636196176322-76fa3dfb5e5c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8c2VhcmNofDQwNHx8c2FpbnQtcGV0ZXJzYnVyZ3xlbnwwfHx8fDE3MDMwODE1MjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=1500"
+                  class="saint-petersburg-image2"
+                />
+                <h2 class="saint-petersburg-text04">Экотропы</h2>
+                <span class="saint-petersburg-text05">
+                  Далее будет ссылка на д.о
+                </span>
+              </div>
+              <div class="saint-petersburg-gallery-card2">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1550643749-d9add3db05e1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI4fHxzYWludC1wZXRlcnNidXJnfGVufDB8fHx8MTcwMzA4MDQyNnww&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=1500"
+                  class="saint-petersburg-image3"
+                />
+                <h2 class="saint-petersburg-text06">Исторические здания</h2>
+                <span class="saint-petersburg-text07">
+                  Далее будет ссылка на д.о
+                </span>
+              </div>
+            </div>
+            <div class="saint-petersburg-banner">
+              <h1 class="saint-petersburg-text08">
+                Наша миссия - влюбить Вас в Санкт-Петербург
+              </h1>
+              <div class="saint-petersburg-btn-group">
+                <a
+                  href="saint-routes.html"
+                  class="saint-petersburg-navlink06 button"
+                >
+                  Начать путешествие
+                </a>
+                <button class="saint-petersburg-button button">
+                  Узнать больше о проекте
+                </button>
+              </div>
+            </div>
+          </div>
+          <img
+            alt="pastedImage"
+            src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+            loading="lazy"
+            class="saint-petersburg-pasted-image"
+          />
+        </div>
+        <img
+          alt="pastedImage"
+          src="public/external/pastedimage-mkdq-1500w.png"
+          class="saint-petersburg-pasted-image1"
+        />
+        <div class="saint-petersburg-features">
+          <h1 class="saint-petersburg-text09">Почему с нами лучше?</h1>
+          <div class="saint-petersburg-separator"></div>
+          <div class="saint-petersburg-container4">
+            <div class="saint-petersburg-container5">
+              <div
+                class="feature-card4-feature-card feature-card4-root-class-name1"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card4-icon">
+                  <path
+                    d="M512 853.333c-8.32 0-16.683-2.432-23.936-7.339-9.6-6.443-235.008-159.147-304.896-229.163-78.123-78.123-87.168-161.152-87.168-216.832 0-126.464 102.869-229.333 229.333-229.333 76.885 0 144.981 38.016 186.667 96.256 41.685-58.24 109.781-96.256 186.667-96.256 126.464 0 229.333 102.869 229.333 229.333 0 55.68-9.045 138.709-87.168 216.832-70.016 70.016-295.381 222.72-304.896 229.163-7.253 4.907-15.616 7.339-23.936 7.339zM325.333 256c-79.403 0-144 64.597-144 144 0 46.635 7.381 101.717 62.165 156.501 51.712 51.712 208.341 161.067 268.501 202.496 60.16-41.429 216.789-150.784 268.501-202.496 54.784-54.784 62.165-109.867 62.165-156.501 0-79.403-64.597-144-144-144s-144 64.597-144 144c0 23.552-19.072 42.667-42.667 42.667s-42.667-19.115-42.667-42.667c0-79.403-64.597-144-144-144z"
+                  ></path>
+                </svg>
+                <h2 class="feature-card4-text">
+                  <span>удобный и красивый дизайн</span>
+                </h2>
+                <span class="feature-card4-text1">
+                  <span>
+                    Здесь вы найдёте не только нужные маршруты по Питеру, но и
+                    найдёте фотографии самых красивых мест нашего города
+                  </span>
+                </span>
+              </div>
+              <div
+                class="feature-card4-feature-card feature-card4-root-class-name4"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card4-icon">
+                  <path
+                    d="M512 853.333c-8.32 0-16.683-2.432-23.936-7.339-9.6-6.443-235.008-159.147-304.896-229.163-78.123-78.123-87.168-161.152-87.168-216.832 0-126.464 102.869-229.333 229.333-229.333 76.885 0 144.981 38.016 186.667 96.256 41.685-58.24 109.781-96.256 186.667-96.256 126.464 0 229.333 102.869 229.333 229.333 0 55.68-9.045 138.709-87.168 216.832-70.016 70.016-295.381 222.72-304.896 229.163-7.253 4.907-15.616 7.339-23.936 7.339zM325.333 256c-79.403 0-144 64.597-144 144 0 46.635 7.381 101.717 62.165 156.501 51.712 51.712 208.341 161.067 268.501 202.496 60.16-41.429 216.789-150.784 268.501-202.496 54.784-54.784 62.165-109.867 62.165-156.501 0-79.403-64.597-144-144-144s-144 64.597-144 144c0 23.552-19.072 42.667-42.667 42.667s-42.667-19.115-42.667-42.667c0-79.403-64.597-144-144-144z"
+                  ></path>
+                </svg>
+                <h2 class="feature-card4-text">
+                  <span>необычные маршруты по городу</span>
+                </h2>
+                <span class="feature-card4-text1">
+                  <span>
+                    Каждый маршрут наша команда отбирала с особым вниманием,
+                    желая по максимуму сохранить ваши время, нервы и деньги
+                  </span>
+                </span>
+              </div>
+              <div
+                class="feature-card4-feature-card feature-card4-root-class-name3"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card4-icon">
+                  <path
+                    d="M512 853.333c-8.32 0-16.683-2.432-23.936-7.339-9.6-6.443-235.008-159.147-304.896-229.163-78.123-78.123-87.168-161.152-87.168-216.832 0-126.464 102.869-229.333 229.333-229.333 76.885 0 144.981 38.016 186.667 96.256 41.685-58.24 109.781-96.256 186.667-96.256 126.464 0 229.333 102.869 229.333 229.333 0 55.68-9.045 138.709-87.168 216.832-70.016 70.016-295.381 222.72-304.896 229.163-7.253 4.907-15.616 7.339-23.936 7.339zM325.333 256c-79.403 0-144 64.597-144 144 0 46.635 7.381 101.717 62.165 156.501 51.712 51.712 208.341 161.067 268.501 202.496 60.16-41.429 216.789-150.784 268.501-202.496 54.784-54.784 62.165-109.867 62.165-156.501 0-79.403-64.597-144-144-144s-144 64.597-144 144c0 23.552-19.072 42.667-42.667 42.667s-42.667-19.115-42.667-42.667c0-79.403-64.597-144-144-144z"
+                  ></path>
+                </svg>
+                <h2 class="feature-card4-text">
+                  <span>Актуальная информация</span>
+                </h2>
+                <span class="feature-card4-text1">
+                  <span>
+                    Мы стараемся всегда находить самые свежие и популярные на
+                    текущий момент времени места
+                  </span>
+                </span>
+              </div>
+              <div
+                class="feature-card4-feature-card feature-card4-root-class-name2"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card4-icon">
+                  <path
+                    d="M512 853.333c-8.32 0-16.683-2.432-23.936-7.339-9.6-6.443-235.008-159.147-304.896-229.163-78.123-78.123-87.168-161.152-87.168-216.832 0-126.464 102.869-229.333 229.333-229.333 76.885 0 144.981 38.016 186.667 96.256 41.685-58.24 109.781-96.256 186.667-96.256 126.464 0 229.333 102.869 229.333 229.333 0 55.68-9.045 138.709-87.168 216.832-70.016 70.016-295.381 222.72-304.896 229.163-7.253 4.907-15.616 7.339-23.936 7.339zM325.333 256c-79.403 0-144 64.597-144 144 0 46.635 7.381 101.717 62.165 156.501 51.712 51.712 208.341 161.067 268.501 202.496 60.16-41.429 216.789-150.784 268.501-202.496 54.784-54.784 62.165-109.867 62.165-156.501 0-79.403-64.597-144-144-144s-144 64.597-144 144c0 23.552-19.072 42.667-42.667 42.667s-42.667-19.115-42.667-42.667c0-79.403-64.597-144-144-144z"
+                  ></path>
+                </svg>
+                <h2 class="feature-card4-text">
+                  <span>Сделано с любовью</span>
+                </h2>
+                <span class="feature-card4-text1">
+                  <span>
+                    Мы рады каждому пользователю, а также открыты к Вашим
+                    пожеланиям или замечаниям
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="saint-petersburg-footer">
+          <div class="saint-petersburg-foot-menu">
+            <img
+              alt="logo"
+              src="public/%D0%BB%D0%BE%D0%B3%D0%BE2-1400w.png"
+              class="saint-petersburg-logo1"
+            />
+            <nav class="saint-petersburg-nav2">
+              <a
+                href="index.html"
+                class="saint-petersburg-navlink07"
+              >
+                Главная
+              </a>
+              <a
+                href="saint-about-project.html"
+                class="saint-petersburg-navlink08"
+              >
+                О проекте
+              </a>
+              <a href="saint-routes.html" class="saint-petersburg-navlink09">
+                Маршруты
+              </a>
+              <a href="saint-routes.html" class="saint-petersburg-navlink10">
+                Галерея
+              </a>
+              <a href="saint-about-us.html" class="saint-petersburg-navlink11">
+                Контакты
+              </a>
+            </nav>
+          </div>
+          <div class="saint-petersburg-separator1"></div>
+          <div class="saint-petersburg-flex-row-space-between">
+            <span class="saint-petersburg-text10">
+              © 2023 All Rights Reserved.
+            </span>
+            <div class="saint-petersburg-all-links1">
+              <svg viewBox="0 0 1024 1024" class="saint-petersburg-tg1">
+                <path
+                  d="M512 0c-282.8 0-512 229.2-512 512s229.2 512 512 512 512-229.2 512-512-229.2-512-512-512zM763.6 351l-84 395.8c-5.8 28.2-22.8 34.8-46.4 21.8l-128-94.6-61.4 59.8c-7.2 7-12.8 12.8-25.6 12.8-16.6 0-13.8-6.2-19.4-22l-43.6-143.2-126.6-39.4c-27.4-8.4-27.6-27.2 6.2-40.6l493.2-190.4c22.4-10.2 44.2 5.4 35.6 40z"
+                ></path></svg ><svg viewBox="0 0 1024 1024" class="saint-petersburg-vk1">
+                <path
+                  d="M928 0h-832c-52.8 0-96 43.2-96 96v832c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-832c0-52.8-43.2-96-96-96zM829.4 716.8l-93.6 1.4c0 0-20.2 4-46.6-14.2-35-24-68-86.6-93.8-78.4-26 8.2-25.2 64.4-25.2 64.4s0.2 12-5.8 18.4c-6.4 7-19.2 8.4-19.2 8.4h-41.8c0 0-92.4 5.6-173.8-79.2-88.8-92.4-167.2-275.8-167.2-275.8s-4.6-12 0.4-17.8c5.6-6.6 20.6-7 20.6-7l100.2-0.6c0 0 9.4 1.6 16.2 6.6 5.6 4 8.6 11.8 8.6 11.8s16.2 41 37.6 78c41.8 72.2 61.4 88 75.6 80.4 20.6-11.2 14.4-102.2 14.4-102.2s0.4-33-10.4-47.6c-8.4-11.4-24.2-14.8-31-15.6-5.6-0.8 3.6-13.8 15.6-19.8 18-8.8 49.8-9.4 87.4-9 29.2 0.2 37.8 2.2 49.2 4.8 34.6 8.4 22.8 40.6 22.8 117.8 0 24.8-4.4 59.6 13.4 71 7.6 5 26.4 0.8 73.4-79 22.2-37.8 39-82.2 39-82.2s3.6-8 9.2-11.4c5.8-3.4 13.6-2.4 13.6-2.4l105.4-0.6c0 0 31.6-3.8 36.8 10.6 5.4 15-11.8 50-54.8 107.4-70.6 94.2-78.6 85.4-19.8 139.8 56 52 67.6 77.4 69.6 80.6 22.8 38.4-26 41.4-26 41.4z"
+                ></path></svg ><svg
+                viewBox="0 0 877.7142857142857 1024"
+                class="saint-petersburg-inst1"
+              >
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>

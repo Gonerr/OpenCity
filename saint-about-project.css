@@ -1,0 +1,1092 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-text1 {
+  margin-left: 32px;
+}
+.navigation-links-text2 {
+  margin-left: 32px;
+}
+.navigation-links-text3 {
+  margin-left: 32px;
+}
+.navigation-links-text4 {
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.saint-about-project-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.saint-about-project-header {
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 32px;
+}
+.saint-about-project-logo {
+  width: 180px;
+  height: 4rem;
+  object-fit: cover;
+}
+.saint-about-project-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background-color: var(--dl-color-gray-900);
+}
+.saint-about-project-navlink {
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-about-project-text {
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+}
+.saint-about-project-navlink1 {
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-about-project-navlink2 {
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-about-project-navlink3 {
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.saint-about-project-accordion-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.saint-about-project-icon {
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+.saint-about-project-accordion-content {
+  display: flex;
+  overflow: hidden;
+  max-height: 0;
+  transition: 0.3s ease-in-out;
+  align-items: center;
+  flex-direction: column;
+}
+.saint-about-project-nav1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.saint-about-project-hero {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  position: relative;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-color: #D9D9D9;
+  background-image: url('https://images.unsplash.com/photo-1589794459826-93dbcdae7dde?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxzYWludC1wZXRlcnNidXJnfGVufDB8fHx8MTcwMzA4MDM2Mnww&ixlib=rb-4.0.3&w=1500');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.saint-about-project-container01 {
+  display: flex;
+  max-width: 1400px;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.saint-about-project-text01 {
+  color: var(--dl-color-gray-white);
+  font-size: 5rem;
+  max-width: 25rem;
+  text-align: right;
+  font-family: "Amatic SC";
+  line-height: 1;
+}
+.saint-about-project-text02 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.15rem;
+  max-width: 60%;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.saint-about-project-button {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-unit);
+  padding-left: 32px;
+  border-radius: 4px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-white);
+}
+.saint-about-project-button:hover {
+  transform: scale(1.02);
+}
+.saint-about-project-steps {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+}
+.saint-about-project-text03 {
+  color: var(--dl-color-gray-black);
+  font-size: 3rem;
+  font-family: "Amatic SC";
+}
+.saint-about-project-text04 {
+  color: var(--dl-color-gray-700);
+  font-size: 1.15rem;
+  max-width: 600px;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.saint-about-project-container02 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.saint-about-project-step {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.saint-about-project-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 2px;
+  padding-right: 2px;
+  flex-direction: row;
+  justify-content: center;
+}
+.saint-about-project-line {
+  flex: 1;
+  height: 0px;
+  display: flex;
+  align-items: flex-start;
+  border-color: transparent;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: row;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.saint-about-project-container04 {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f5f5f5ff;
+}
+.saint-about-project-icon02 {
+  fill: var(--dl-color-gray-500);
+  width: 24px;
+  height: 24px;
+}
+.saint-about-project-line1 {
+  flex: 1;
+  height: 0px;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: row;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.saint-about-project-container05 {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.saint-about-project-text07 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.saint-about-project-text08 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  text-align: center;
+}
+.saint-about-project-step1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.saint-about-project-container06 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 2px;
+  padding-right: 2px;
+  flex-direction: row;
+  justify-content: center;
+}
+.saint-about-project-line2 {
+  flex: 1;
+  height: 0px;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: row;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.saint-about-project-container07 {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f5f5f5ff;
+}
+.saint-about-project-icon04 {
+  fill: var(--dl-color-gray-500);
+  width: 24px;
+  height: 24px;
+}
+.saint-about-project-line3 {
+  flex: 1;
+  height: 0px;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: row;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.saint-about-project-container08 {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.saint-about-project-text11 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.saint-about-project-text12 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  text-align: center;
+}
+.saint-about-project-step2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.saint-about-project-container09 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 2px;
+  padding-right: 2px;
+  flex-direction: row;
+  justify-content: center;
+}
+.saint-about-project-line4 {
+  flex: 1;
+  height: 0px;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: row;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.saint-about-project-container10 {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f5f5f5ff;
+}
+.saint-about-project-icon06 {
+  fill: var(--dl-color-gray-500);
+  width: 24px;
+  height: 24px;
+}
+.saint-about-project-line5 {
+  flex: 1;
+  height: 0px;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: row;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.saint-about-project-container11 {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.saint-about-project-text15 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.saint-about-project-text16 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  text-align: center;
+}
+.saint-about-project-step3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.saint-about-project-container12 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 2px;
+  padding-right: 2px;
+  flex-direction: row;
+  justify-content: center;
+}
+.saint-about-project-line6 {
+  flex: 1;
+  height: 0px;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: row;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.saint-about-project-container13 {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f5f5f5ff;
+}
+.saint-about-project-icon09 {
+  fill: var(--dl-color-gray-500);
+  width: 24px;
+  height: 24px;
+}
+.saint-about-project-line7 {
+  flex: 1;
+  height: 0px;
+  display: flex;
+  align-items: flex-start;
+  border-color: transparent;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: row;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.saint-about-project-container14 {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.saint-about-project-text19 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.saint-about-project-text20 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  text-align: center;
+}
+.saint-about-project-testimonial {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.saint-about-project-image {
+  width: 288px;
+  height: 288px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.saint-about-project-testimonial1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.saint-about-project-container15 {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.saint-about-project-icon11 {
+  width: 48px;
+  margin-bottom: -6rem;
+}
+.saint-about-project-text23 {
+  font-size: 1.15rem;
+  max-width: 600px;
+  margin-top: 48px;
+  text-align: center;
+  padding-left: 32px;
+  margin-bottom: 48px;
+  padding-right: 32px;
+}
+.saint-about-project-container16 {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.saint-about-project-icon13 {
+  width: 48px;
+  margin-top: -6rem;
+}
+.saint-about-project-text26 {
+  font-size: 2rem;
+  max-width: 600px;
+  text-align: center;
+  font-family: "Amatic SC";
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.saint-about-project-text27 {
+  color: var(--dl-color-gray-500);
+  max-width: 600px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+}
+.saint-about-project-footer {
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.saint-about-project-foot-menu {
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.saint-about-project-logo1 {
+  height: 100px;
+  margin-bottom: 32px;
+}
+.saint-about-project-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: row;
+}
+.saint-about-project-navlink4 {
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-about-project-text28 {
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+}
+.saint-about-project-navlink5 {
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-about-project-navlink6 {
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-about-project-navlink7 {
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.saint-about-project-separator1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: 32px;
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: 32px;
+  flex-direction: row;
+}
+.saint-about-project-flex-row-space-between {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.saint-about-project-all-links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.saint-about-project-link {
+  display: contents;
+}
+.saint-about-project-tg {
+  fill: var(--dl-color-primary-bluelight);
+  width: 30px;
+  height: 30px;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.saint-about-project-link1 {
+  display: contents;
+}
+.saint-about-project-vk {
+  fill: var(--dl-color-primary-dark_blue);
+  width: 30px;
+  height: 30px;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.saint-about-project-link2 {
+  display: contents;
+}
+.saint-about-project-inst {
+  fill: #c62f89;
+  width: 30px;
+  height: 30px;
+  margin-right: 32px;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .saint-about-project-nav1 {
+    padding-top: 16px;
+  }
+  .saint-about-project-text03 {
+    text-align: center;
+  }
+  .saint-about-project-text04 {
+    text-align: center;
+  }
+  .saint-about-project-image {
+    margin-bottom: 0px;
+  }
+  .saint-about-project-text23 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+}
+@media(max-width: 767px) {
+  .saint-about-project-header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-about-project-separator {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .saint-about-project-nav {
+    display: none;
+  }
+  .saint-about-project-icon {
+    display: flex;
+  }
+  .saint-about-project-hero {
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-about-project-text01 {
+    text-align: center;
+  }
+  .saint-about-project-text02 {
+    max-width: 100%;
+    text-align: center;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .saint-about-project-steps {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-about-project-container02 {
+    align-items: flex-start;
+    padding-left: var(--dl-space-space-fiveunits);
+    flex-direction: column;
+  }
+  .saint-about-project-step {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .saint-about-project-container03 {
+    width: 48px;
+    height: auto;
+    align-self: stretch;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    padding-bottom: 2px;
+    justify-content: space-between;
+  }
+  .saint-about-project-line1 {
+    border-color: var(--dl-color-gray-900);
+    border-style: dashed;
+    border-top-width: 0px;
+    border-left-width: 2px;
+  }
+  .saint-about-project-container05 {
+    width: 100%;
+    align-items: flex-start;
+    padding-top: 32px;
+    flex-direction: column;
+    padding-bottom: 32px;
+    justify-content: space-between;
+  }
+  .saint-about-project-text07 {
+    margin-top: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .saint-about-project-text08 {
+    text-align: left;
+  }
+  .saint-about-project-step1 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .saint-about-project-container06 {
+    width: 48px;
+    height: auto;
+    align-self: stretch;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    padding-bottom: 2px;
+    justify-content: space-between;
+  }
+  .saint-about-project-line2 {
+    border-top-width: 0px;
+    border-left-width: 2px;
+  }
+  .saint-about-project-line3 {
+    border-color: var(--dl-color-gray-900);
+    border-style: dashed;
+    border-top-width: 0px;
+    border-left-width: 2px;
+  }
+  .saint-about-project-container08 {
+    width: 100%;
+    align-items: flex-start;
+    padding-top: 32px;
+    flex-direction: column;
+    padding-bottom: 32px;
+    justify-content: space-between;
+  }
+  .saint-about-project-text11 {
+    margin-top: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .saint-about-project-text12 {
+    text-align: left;
+  }
+  .saint-about-project-step2 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .saint-about-project-container09 {
+    width: 48px;
+    height: auto;
+    align-self: stretch;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    padding-bottom: 2px;
+    justify-content: space-between;
+  }
+  .saint-about-project-line4 {
+    border-top-width: 0px;
+    border-left-width: 2px;
+  }
+  .saint-about-project-line5 {
+    border-color: var(--dl-color-gray-900);
+    border-style: dashed;
+    border-top-width: 0px;
+    border-left-width: 2px;
+  }
+  .saint-about-project-container11 {
+    width: 100%;
+    align-items: flex-start;
+    padding-top: 32px;
+    flex-direction: column;
+    padding-bottom: 32px;
+    justify-content: space-between;
+  }
+  .saint-about-project-text15 {
+    margin-top: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .saint-about-project-text16 {
+    text-align: left;
+  }
+  .saint-about-project-step3 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .saint-about-project-container12 {
+    width: 48px;
+    height: auto;
+    align-self: stretch;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    padding-bottom: 2px;
+    justify-content: space-between;
+  }
+  .saint-about-project-line6 {
+    border-top-width: 0px;
+    border-left-width: 2px;
+  }
+  .saint-about-project-line7 {
+    border-color: transparent;
+    border-style: dashed;
+    border-top-width: 0px;
+    border-left-width: 2px;
+  }
+  .saint-about-project-container14 {
+    width: 100%;
+    align-items: flex-start;
+    padding-top: 32px;
+    flex-direction: column;
+    padding-bottom: 32px;
+    justify-content: space-between;
+  }
+  .saint-about-project-text19 {
+    margin-top: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .saint-about-project-text20 {
+    text-align: left;
+  }
+  .saint-about-project-testimonial {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-about-project-footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-about-project-logo1 {
+    margin-bottom: 24px;
+  }
+  .saint-about-project-separator1 {
+    margin-top: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 24px;
+  }
+  .saint-about-project-flex-row-space-between {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .saint-about-project-text29 {
+    margin-bottom: 24px;
+  }
+}
+@media(max-width: 479px) {
+  .saint-about-project-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .saint-about-project-separator {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .saint-about-project-hero {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .saint-about-project-text02 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .saint-about-project-button {
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .saint-about-project-steps {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .saint-about-project-container02 {
+    padding-left: 0px;
+  }
+  .saint-about-project-container05 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: 0px;
+    padding-bottom: 32px;
+  }
+  .saint-about-project-text07 {
+    margin-left: 0px;
+    margin-right: 32px;
+  }
+  .saint-about-project-container08 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: 0px;
+    padding-bottom: 32px;
+  }
+  .saint-about-project-text11 {
+    margin-left: 0px;
+    margin-right: 32px;
+  }
+  .saint-about-project-container11 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: 0px;
+    padding-bottom: 32px;
+  }
+  .saint-about-project-text15 {
+    margin-left: 0px;
+    margin-right: 32px;
+  }
+  .saint-about-project-container14 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: 0px;
+    padding-bottom: 32px;
+  }
+  .saint-about-project-text19 {
+    margin-left: 0px;
+    margin-right: 32px;
+  }
+  .saint-about-project-testimonial {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .saint-about-project-image {
+    width: 200px;
+  }
+  .saint-about-project-icon11 {
+    margin-bottom: 0px;
+  }
+  .saint-about-project-text23 {
+    width: auto;
+  }
+  .saint-about-project-icon13 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .saint-about-project-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .saint-about-project-nav2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .saint-about-project-separator1 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .saint-about-project-flex-row-space-between {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .saint-about-project-text29 {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+}

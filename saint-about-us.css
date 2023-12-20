@@ -1,0 +1,807 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-text1 {
+  margin-left: 32px;
+}
+.navigation-links-text2 {
+  margin-left: 32px;
+}
+.navigation-links-text3 {
+  margin-left: 32px;
+}
+.navigation-links-text4 {
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.testimonial-card1-testimonial-card {
+  display: flex;
+  padding: 32px;
+  max-width: 1400px;
+  background: #fff;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testimonial-card1-icon {
+  width: 2rem;
+  margin-bottom: 32px;
+}
+.testimonial-card1-testimonial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testimonial-card1-text {
+  color: var(--dl-color-gray-500);
+  font-size: 0.9em;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.testimonial-card1-text1 {
+  font-size: 2rem;
+  font-family: "Amatic SC";
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.testimonial-card1-text2 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.9em;
+  max-width: 250px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+}
+.testimonial-card1-image {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+
+
+
+
+
+
+@media(max-width: 991px) {
+  .testimonial-card1-text2 {
+    align-self: center;
+  }
+}
+@media(max-width: 767px) {
+  .testimonial-card1-testimonial-card {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .testimonial-card1-testimonial-card {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .testimonial-card1-icon {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .testimonial-card1-text {
+    margin-bottom: 32px;
+  }
+  .testimonial-card1-text1 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .testimonial-card1-text2 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.testimonial-card2-testimonial-card {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  background: #fff;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonial-card2-testimonial {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 48px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testimonial-card2-icon {
+  width: 48px;
+  flex-shrink: 0;
+  margin-bottom: 32px;
+}
+.testimonial-card2-text {
+  color: var(--dl-color-gray-500);
+  font-size: 1.15rem;
+  margin-bottom: 32px;
+}
+.testimonial-card2-text1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.testimonial-card2-image {
+  width: 192px;
+  height: 192px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: var(--dl-radius-radius-round);
+}
+.testimonial-card2-root-class-name {
+  align-self: flex-start;
+}
+.testimonial-card2-root-class-name1 {
+  align-self: flex-start;
+}
+.testimonial-card2-root-class-name2 {
+  align-self: flex-start;
+}
+.testimonial-card2-root-class-name3 {
+  align-self: flex-start;
+}
+@media(max-width: 767px) {
+  .testimonial-card2-testimonial-card {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .testimonial-card2-testimonial {
+    margin-right: 32px;
+  }
+  .testimonial-card2-icon {
+    height: 48px;
+  }
+}
+@media(max-width: 479px) {
+  .testimonial-card2-testimonial-card {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+  .testimonial-card2-testimonial {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .testimonial-card2-text {
+    text-align: left;
+  }
+}
+
+.testimonial-card4-testimonial-card {
+  width: 100%;
+  display: flex;
+  padding: 32px;
+  max-width: 1400px;
+  align-self: stretch;
+  background: #fff;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.testimonial-card4-icon {
+  width: 96px;
+  flex-shrink: 0;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.testimonial-card4-text {
+  color: var(--dl-color-gray-500);
+  font-size: 1.15rem;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.testimonial-card4-profile {
+  width: 100%;
+  display: flex;
+  margin-top: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.testimonial-card4-image {
+  width: 96px;
+  filter: grayscale();
+  height: 96px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.testimonial-card4-container {
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testimonial-card4-text1 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.testimonial-card4-text2 {
+  color: var(--dl-color-gray-500);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+
+@media(max-width: 991px) {
+  .testimonial-card4-icon {
+    height: 96px;
+  }
+  .testimonial-card4-profile {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .testimonial-card4-image {
+    margin-left: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .testimonial-card4-testimonial-card {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .testimonial-card4-profile {
+    justify-content: center;
+  }
+}
+
+.saint-about-us-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.saint-about-us-header {
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 32px;
+}
+.saint-about-us-logo {
+  width: 180px;
+  height: 4rem;
+  object-fit: cover;
+}
+.saint-about-us-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background-color: var(--dl-color-gray-900);
+}
+.saint-about-us-navlink {
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-about-us-text {
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+}
+.saint-about-us-navlink1 {
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-about-us-navlink2 {
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-about-us-navlink3 {
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+.saint-about-us-accordion-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.saint-about-us-icon {
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+.saint-about-us-accordion-content {
+  display: flex;
+  overflow: hidden;
+  max-height: 0;
+  transition: 0.3s ease-in-out;
+  align-items: center;
+  flex-direction: column;
+}
+.saint-about-us-nav1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.saint-about-us-example1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--dl-color-sant-peterspurg-saint-gray);
+}
+.saint-about-us-container1 {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1637579176840-cbba84e5f5d5?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIxN3x8c2FpbnQtcGV0ZXJzYnVyZ3xlbnwwfHx8fDE3MDMwODA1NTN8MA&ixlib=rb-4.0.3&w=1400");
+  background-position: center;
+}
+.saint-about-us-text01 {
+  color: var(--dl-color-gray-white);
+  font-size: 3em;
+  font-family: "Amatic SC";
+  letter-spacing: 2px;
+}
+.saint-about-us-text04 {
+  color: var(--dl-color-gray-white);
+  font-size: 0.75rem;
+  max-width: 600px;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  margin-bottom: 32px;
+}
+.saint-about-us-container2 {
+  width: 100%;
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.saint-about-us-testimonial-card {
+  width: auto;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  background: #fff;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  margin-top: var(--dl-space-space-fourunits);
+  align-items: center;
+  justify-content: space-between;
+}
+.saint-about-us-testimonial {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-right: 48px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.saint-about-us-icon2 {
+  width: 48px;
+  flex-shrink: 0;
+  margin-bottom: 32px;
+}
+.saint-about-us-text05 {
+  color: var(--dl-color-gray-500);
+  width: 100%;
+  font-size: 1rem;
+  text-align: justify;
+  margin-bottom: 32px;
+}
+.saint-about-us-container3 {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.saint-about-us-text10 {
+  font-size: 2.4rem;
+  font-family: "Amatic SC";
+  font-weight: 600;
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.saint-about-us-text11 {
+  color: var(--dl-color-gray-500);
+  height: auto;
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.saint-about-us-image {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: var(--dl-radius-radius-round);
+}
+.saint-about-us-example2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: none;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.saint-about-us-testimonial1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://images.unsplash.com/photo-1503149779833-1de50ebe5f8a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE2fHxzd2lzcyUyMGNoZWVzZSUyMHBsYW50fGVufDB8fHx8MTYyNTg0MTU0Mg&ixlib=rb-1.2.1&w=1500');
+  background-position: center;
+}
+.saint-about-us-container4 {
+  display: flex;
+  max-width: 1400px;
+  align-items: stretch;
+  padding-top: 30px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 48px;
+  justify-content: space-between;
+}
+.saint-about-us-container5 {
+  flex: 2;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 32px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.saint-about-us-container6 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.saint-about-us-container7 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.saint-about-us-footer {
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.saint-about-us-foot-menu {
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.saint-about-us-logo1 {
+  height: 100px;
+  margin-bottom: 32px;
+}
+.saint-about-us-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: row;
+}
+.saint-about-us-navlink4 {
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-about-us-text12 {
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+}
+.saint-about-us-navlink5 {
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-about-us-navlink6 {
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.saint-about-us-navlink7 {
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+.saint-about-us-separator1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: 32px;
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: 32px;
+  flex-direction: row;
+}
+.saint-about-us-flex-row-space-between {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.saint-about-us-all-links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.saint-about-us-link {
+  display: contents;
+}
+.saint-about-us-tg {
+  fill: var(--dl-color-primary-bluelight);
+  width: 30px;
+  height: 30px;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.saint-about-us-link1 {
+  display: contents;
+}
+.saint-about-us-vk {
+  fill: var(--dl-color-primary-dark_blue);
+  width: 30px;
+  height: 30px;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.saint-about-us-link2 {
+  display: contents;
+}
+.saint-about-us-inst {
+  fill: #c62f89;
+  width: 30px;
+  height: 30px;
+  margin-right: 32px;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .saint-about-us-nav1 {
+    padding-top: 16px;
+  }
+  .saint-about-us-text01 {
+    text-align: center;
+  }
+  .saint-about-us-text04 {
+    text-align: center;
+  }
+  .saint-about-us-container2 {
+    grid-template-columns: 1fr;
+  }
+  .saint-about-us-text11 {
+    align-self: center;
+  }
+  .saint-about-us-container4 {
+    flex-direction: column;
+  }
+  .saint-about-us-container5 {
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+}
+@media(max-width: 767px) {
+  .saint-about-us-header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-about-us-separator {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .saint-about-us-nav {
+    display: none;
+  }
+  .saint-about-us-icon {
+    display: flex;
+  }
+  .saint-about-us-container1 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-about-us-testimonial-card {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-about-us-testimonial {
+    margin-right: 32px;
+  }
+  .saint-about-us-icon2 {
+    height: 48px;
+  }
+  .saint-about-us-container4 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-about-us-footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saint-about-us-logo1 {
+    margin-bottom: 24px;
+  }
+  .saint-about-us-separator1 {
+    margin-top: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 24px;
+  }
+  .saint-about-us-flex-row-space-between {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .saint-about-us-text13 {
+    margin-bottom: 24px;
+  }
+}
+@media(max-width: 479px) {
+  .saint-about-us-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .saint-about-us-separator {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .saint-about-us-container1 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .saint-about-us-testimonial-card {
+    align-items: center;
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: column;
+    padding-bottom: 32px;
+    justify-content: space-between;
+  }
+  .saint-about-us-testimonial {
+    align-self: center;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+    justify-content: center;
+  }
+  .saint-about-us-text05 {
+    text-align: left;
+  }
+  .saint-about-us-text06 {
+    text-align: left;
+  }
+  .saint-about-us-container3 {
+    align-items: center;
+  }
+  .saint-about-us-text11 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .saint-about-us-container4 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .saint-about-us-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .saint-about-us-nav2 {
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+  }
+  .saint-about-us-separator1 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .saint-about-us-flex-row-space-between {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .saint-about-us-text13 {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+}
